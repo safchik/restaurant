@@ -9,7 +9,7 @@ import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
-import spoon from '../assets/spoon.svg';
+import spoon from '../assets/secretlondon_Spoon.png';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
@@ -21,7 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export default {
+const importedImages = {
     bg,
     chef,
     G,
@@ -45,3 +45,5 @@ export default {
     quote,
     gericht,
 };
+
+export default importedImages;
